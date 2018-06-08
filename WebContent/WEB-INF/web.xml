@@ -19,4 +19,14 @@
     <servlet-name>LifeCycle</servlet-name>
     <url-pattern>/addDept</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Department</display-name>
+    <servlet-name>Department</servlet-name>
+    <servlet-class>com.cr7.lifecycle.Department</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Department</servlet-name>
+    <url-pattern>/Department</url-pattern>
+  </servlet-mapping>
 </web-app>
